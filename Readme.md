@@ -25,7 +25,9 @@ var toSort = [3, 2, 1, 8, 5]
 // Ascending order
 StackSort(toSort)
 // Descending order
-StackSort(toSort, function(a, b){ return b - a })
+StackSort(toSort, function(a, b){
+  return b - a
+})
 ```
 
 #### Sorting Alphabets arrays
@@ -34,9 +36,13 @@ const Alphabets = 'abcdefghijklmnopqrstuvwxyz'
 var toSort = ['d', 'c', 'b', 'a', 'e']
 
 // Ascending order
-StackSort(toSort, function (a, b) { return Alphabets.indexOf(a) - Alphabets.indexOf(b) })
+StackSort(toSort, function (a, b) {
+  return Alphabets.indexOf(a) - Alphabets.indexOf(b)
+})
 // Descending order
-StackSort(toSort, function (a, b) { return Alphabets.indexOf(b) - Alphabets.indexOf(a) })
+StackSort(toSort, function (a, b) {
+  return Alphabets.indexOf(b) - Alphabets.indexOf(a)
+})
 ```
 
 ## Documentation
