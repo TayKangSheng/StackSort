@@ -1,0 +1,16 @@
+{
+  "name": "stacksort",
+  "version": "0.0.3",
+  "description": "A simple sorting algorithm implemented with stacks",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "algorithms",
+    "stacks",
+    "sort"
+  ],
+  "author": "github.io/taykangsheng",
+  "license": "ISC"
+}
